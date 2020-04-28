@@ -9,9 +9,6 @@ var m = d.getMinutes();
 //add minutes to h. eg. h=15.5 is 3.30pm
 h = h + m / 60;
 
-console.log(h);
-
-
 //if hour is between 8 and 11
 if ((h >= 8) && (h <= 11)) {
     var x = document.getElementById("breakfast");
