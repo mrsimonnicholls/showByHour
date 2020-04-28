@@ -20,8 +20,8 @@ if ((h >= 11) && (h <= 14)) {
     var x = document.getElementById("lunch");
     x.style.display = "block";
 }
-//if hour is between 16 and 22
 
+//if hour is between 16 and 22
 if ((h >= 16) && (h <= 22)) {
     var x = document.getElementById("dinner");
     x.style.display = "block";
